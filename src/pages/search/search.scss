@@ -1,0 +1,42 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+  margin: 50px 0 0 0;
+  min-height: calc(100vh - 163px);
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 50px;
+
+  label {
+    font-size: 20px;
+    color: #10439f;
+  }
+
+  .ant-input-affix-wrapper {
+    background-color: transparent;
+    outline: 0;
+    border-style: none none solid none;
+    border-bottom-color: #874ccc;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+
+  .ant-input-lg {
+    background-color: transparent;
+    margin-left: 10px;
+    outline: none;
+  }
+
+  .ant-input-affix-wrapper-lg {
+    color: #10439f;
+  }
+}

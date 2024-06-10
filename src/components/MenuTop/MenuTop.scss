@@ -1,0 +1,62 @@
+.menu-top {
+  display: flex;
+  width: 100%;
+  height: inherit;
+
+  &__logo {
+    display: flex;
+    margin-right: 40px;
+    margin-top: -19px;
+    width: 75px;
+  }
+}
+
+.logo2 {
+  background-image: url("../../assets/perris.gif");
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.ant-menu {
+  width: 100%;
+}
+
+.ant-menu-item {
+  font-size: 21px;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #6420aa;
+  color: white;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  background-color: #10439f;
+  color: white;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background-color: #c65bcf;
+
+  li {
+    &:hover {
+      background-color: #10439f;
+    }
+  }
+}
+
+.ant-menu-submenu-title {
+  margin-right: 150px;
+}
+
+@media (max-width: 380px) {
+  .menu-top {
+    justify-content: center;
+  }
+}

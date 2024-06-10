@@ -1,0 +1,45 @@
+.ant-pagination {
+  display: flex;
+  width: 100%;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: center;
+
+  .ant-pagination-item {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    &:hover {
+      background-color: #10439f;
+    }
+    a {
+      background-color: transparent;
+      font-family: "Acme", sans-serif;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .ant-pagination-item-active {
+    background-color: #10439f;
+    a {
+      color: white;
+    }
+  }
+
+  .ant-pagination-prev .ant-pagination-item-link,
+  .ant-pagination-next .ant-pagination-item-link {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    &:hover {
+      color: white;
+      background-color: #10439f;
+    }
+  }
+
+  .ant-pagination-options {
+    display: none;
+  }
+}

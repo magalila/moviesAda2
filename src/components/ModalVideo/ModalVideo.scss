@@ -1,0 +1,53 @@
+.modal-video {
+  width: 75% !important;
+  height: 75% !important;
+  padding: 0 !important;
+
+  .ant-modal-content {
+    height: 100%;
+    background-color: black !important;
+
+    .ant-modal-close {
+      color: white;
+
+      span {
+        span {
+          padding-top: 6px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: blue;
+
+          svg {
+            font-size: 1em;
+          }
+        }
+      }
+    }
+  }
+
+  .ant-modal-body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > div {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .modal-video {
+    height: 43% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .modal-video {
+    height: 30% !important;
+    width: 85% !important;
+  }
+}

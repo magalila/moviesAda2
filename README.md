@@ -1,0 +1,1 @@
+Proyecto realizado con React, utilizando la API https://www.themoviedb.org/
